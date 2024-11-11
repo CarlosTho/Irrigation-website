@@ -1,0 +1,81 @@
+#lightbox-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#lightbox-container img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  z-index: 99999;
+}
+
+#lightbox-container .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  font-size: 60px;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+#lightbox-container .arrow {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 48px;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+#lightbox-container .prev {
+  left: 500px;
+  z-index: 99999;
+  transform: scale(2);
+}
+
+#lightbox-container .next {
+  right: 500px;
+  z-index: 99999;
+  transform: scale(2);
+}
+
+ @media (max-width: 1700px) {
+   #lightbox-container .prev {
+  left: 250px;
+  z-index: 99999;
+  transform: scale(2);
+}
+
+#lightbox-container .next {
+  right: 250px;
+  z-index: 99999;
+  transform: scale(2);
+}
+
+  }
+
+
+   @media (max-width: 1100px) {
+   #lightbox-container .prev {
+  left: 100px;
+  z-index: 99999;
+  transform: scale(2);
+}
+
+#lightbox-container .next {
+  right: 100px;
+  z-index: 99999;
+  transform: scale(2);
+}
+
+  }

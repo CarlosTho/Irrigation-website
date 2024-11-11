@@ -1,0 +1,12 @@
+.help-contact{
+  color:black !important;
+  font-size: 1.5rem;
+  background: #37b5ff;
+  color: white !important;
+  display: inline-block;
+  margin-bottom: 4rem;
+  border-radius: 5px;
+  padding: 0.7rem;
+  margin-bottom: 5rem;
+  font-weight: 700;
+}
